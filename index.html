@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f1eb">
+  <meta name="description" content="디자인과 코드를 함께 다루는 신입 디자이너 포트폴리오">
+  <title>윤슬 — 디자인 포트폴리오</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 바로가기</a>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="윤슬 홈">Y<span>·</span></a>
+    <span class="top-note">DESIGNER IN THE MAKING <i></i> SEOUL, KR</span>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="메뉴 열기"><span></span><span></span></button>
+    <nav class="site-menu" id="site-menu" aria-label="주요 메뉴">
+      <a href="#about">ABOUT <small>01</small></a>
+      <a href="#works">WORKS <small>02</small></a>
+      <a href="#contact">CONTACT <small>03</small></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-meta"><span>PORTFOLIO / 2026</span><span>VISUAL · DIGITAL · MOTION</span></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES</p>
+        <h1 id="hero-title">보이는 것에<br>이유를 <span>만듭니다.</span></h1>
+        <p class="hero-intro">디자인과 코드를 함께 다루며, 작은 아이디어를<br class="desktop-only"> 오래 기억되는 경험으로 만드는 신입 디자이너 <b>윤슬</b>입니다.</p>
+        <a class="circle-link" href="#works" aria-label="작품 보러 가기"><span>SCROLL<br>TO EXPLORE</span><b>↘</b></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+        <div class="art-sticker">IDEAS<br>IN MOTION<span>✳</span></div>
+        <div class="art-shape shape-red"></div><div class="art-shape shape-dark"></div><div class="art-shape shape-cream"></div>
+        <div class="art-caption">FIG. 01 — A WORK IN PROGRESS</div>
+      </div>
+      <div class="hero-index">01 <span>/</span> 04</div>
+    </section>
+
+    <section class="about section-pad" id="about" aria-labelledby="about-title">
+      <div class="section-label"><span>01 — ABOUT</span><span>TOOLS & APPROACH</span></div>
+      <div class="about-grid">
+        <h2 id="about-title">배우고,<br><em>만들고,</em><br>다시 다듬습니다.</h2>
+        <div class="about-copy">
+          <p>새로운 시각을 발견하고, 보기 좋은 결과를 넘어 쓰기 좋은 경험을 만드는 일에 관심이 있습니다. 그래픽부터 웹, 영상까지 직접 만들며 저만의 감각을 넓혀가고 있어요.</p>
+          <p class="note">※ 소개 문구는 본인의 실제 경험과 관심 분야에 맞게 수정해 주세요.</p>
+          <div class="tools-heading"><span>TOOLS I USE</span><span>06</span></div>
+          <ul class="tool-list" aria-label="사용 가능한 프로그램">
+            <li><span class="tool-icon icon-html">5</span><span>HTML5</span></li>
+            <li><span class="tool-icon icon-css">3</span><span>CSS3</span></li>
+            <li><span class="tool-icon icon-ps">Ps</span><span>Photoshop</span></li>
+            <li><span class="tool-icon icon-ai">Ai</span><span>Illustrator</span></li>
+            <li><span class="tool-icon icon-ae">Ae</span><span>After Effects</span></li>
+            <li><span class="tool-icon icon-pr">Pr</span><span>Premiere Pro</span></li>
+          </ul>
+          <p class="tool-footnote">프로그램은 프로젝트에 맞춰 사용합니다. 숙련도 표시는 생략했어요.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="works section-pad" id="works" aria-labelledby="works-title">
+      <div class="section-label"><span>02 — SELECTED WORKS</span><span>CLICK A PROJECT TO EXPLORE ↗</span></div>
+      <div class="works-heading"><h2 id="works-title">만든 것들<span class="asterisk">✳</span></h2><p>아이디어에서 결과물까지.<br>작품을 눌러 자세히 살펴보세요.</p></div>
+      <div class="gallery" id="gallery">
+        <button class="work-card card-one" type="button" data-project="0" aria-label="작품 01 상세 보기">
+          <span class="work-image poster-art"><span class="poster-small">A STUDY IN<br>CONTRAST</span><span class="poster-big">GOOD<br>IDEAS<br><i>GROW</i></span><span class="poster-circle">01</span><span class="poster-lines"></span></span>
+          <span class="card-meta"><span><b>01</b> 그래픽 포스터 — 임시 프로젝트</span><span>2026 ↗</span></span>
+        </button>
+        <button class="work-card card-two" type="button" data-project="1" aria-label="작품 02 상세 보기">
+          <span class="work-image web-art"><span class="browser-bar"><i></i><i></i><i></i><b>goodday.studio</b></span><span class="web-stamp">TAKE<br>A BREATH</span><span class="web-head">A LITTLE<br>GOOD DAY<span>✳</span></span><span class="web-cta">EXPLORE THE BRAND ↗</span><span class="web-orb"></span></span>
+          <span class="card-meta"><span><b>02</b> 브랜드 웹사이트 — 임시 프로젝트</span><span>2026 ↗</span></span>
+        </button>
+        <button class="work-card card-three" type="button" data-project="2" aria-label="작품 03 상세 보기">
+          <span class="work-image motion-art"><span class="motion-label">FRAME 024 / 120</span><span class="motion-word">MOVE<br><i>WITH</i><br>ME<span>↗</span></span><span class="motion-disc"></span><span class="motion-bars"></span></span>
+          <span class="card-meta"><span><b>03</b> 모션 그래픽 — 임시 프로젝트</span><span>2026 ↗</span></span>
+        </button>
+        <button class="work-card card-four" type="button" data-project="3" aria-label="작품 04 상세 보기">
+          <span class="work-image identity-art"><span class="identity-top">FRESH / LOCAL / DAILY</span><span class="identity-mark">f<span>!</span></span><span class="identity-name">FRESH<br>FORM</span><span class="identity-sticker">GROWN<br>WITH CARE</span><span class="identity-bottom">A BRAND IDENTITY STUDY — 2026</span></span>
+          <span class="card-meta"><span><b>04</b> 브랜드 아이덴티티 — 임시 프로젝트</span><span>2026 ↗</span></span>
+        </button>
+      </div>
+      <button class="gallery-more" type="button" aria-expanded="false" aria-controls="gallery"><span>작품 더보기</span><b>＋</b></button>
+      <p class="gallery-note"><span>+</span> 더 많은 작업이 있다면 대표작을 먼저 고르고, 나머지는 별도 페이지나 링크로 연결해 보세요.</p>
+    </section>
+
+    <section class="contact section-pad" id="contact" aria-labelledby="contact-title">
+      <div class="section-label"><span>03 — CONTACT</span><span>LET'S MAKE SOMETHING MEANINGFUL</span></div>
+      <div class="contact-content"><p class="eyebrow">HAVE A PROJECT IN MIND?</p><h2 id="contact-title">다음 장면을<br><span>함께 만들어요.</span></h2>
+        <a class="email-link" href="mailto:your.email@example.com?subject=%ED%8F%AC%ED%8A%B8%ED%8F%B4%EB%A6%AC%EC%98%A4%20%EB%AC%B8%EC%9D%98">your.email@example.com <span>↗</span></a>
+        <p class="note">이메일 주소를 본인의 주소로 바꿔 주세요. 링크를 누르면 메일 앱이 열립니다.</p>
+      </div>
+      <div class="contact-spark" aria-hidden="true">✳</div>
+      <footer><a class="brand" href="#home">Y<span>·</span></a><span>DESIGNED WITH INTENTION · © 2026 YOONSEUL</span><a href="#home">BACK TO TOP ↑</a></footer>
+    </section>
+  </main>
+
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" type="button" aria-label="상세 내용 닫기">×</button>
+    <div class="dialog-art" id="dialog-art"></div>
+    <div class="dialog-content"><p class="eyebrow" id="dialog-category"></p><h2 id="dialog-title"></h2><p id="dialog-description"></p><dl><div><dt>ROLE</dt><dd id="dialog-role"></dd></div><div><dt>TOOLS</dt><dd id="dialog-tools"></dd></div><div><dt>PROCESS</dt><dd id="dialog-process"></dd></div></dl><p class="note">※ 임시 프로젝트 예시입니다. 실제 작품과 작업 과정으로 교체해 주세요.</p></div>
+  </dialog>
+</body>
+</html>
